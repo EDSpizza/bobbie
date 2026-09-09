@@ -1,0 +1,26 @@
+# Build output
+build/
+.pio/
+.pioenvs/
+.piolibdeps/
+*.bin
+*.elf
+*.map
+*.hex
+
+# Arduino IDE
+*.ino.cpp
+.vscode/
+.theia/
+
+# Editors and OS
+.idea/
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# Local secrets and per-machine config
+secrets.h
+config.local.h
+.env
